@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title desc">
+  <title id="title">Rajat Yadav</title>
+  <desc id="desc">Web development, AI projects and problem solving. A dark navy banner with mint geometric accents.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0e1b2b"/>
+      <stop offset="1" stop-color="#07111d"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#74efd0"/>
+      <stop offset="1" stop-color="#73bcff"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#173147" stroke-width="1"/>
+    </pattern>
+    <clipPath id="rounded"><rect width="1280" height="320" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#rounded)">
+    <rect width="1280" height="320" fill="url(#background)"/>
+    <rect x="825" width="455" height="320" fill="url(#grid)" opacity="0.6"/>
+    <circle cx="1165" cy="155" r="198" fill="none" stroke="#1b4355" stroke-width="1"/>
+    <circle cx="1165" cy="155" r="145" fill="none" stroke="#205c66" stroke-width="1"/>
+    <circle cx="1165" cy="155" r="90" fill="none" stroke="#74efd0" stroke-opacity="0.35" stroke-width="1"/>
+    <path d="M998 108l-32 33 32 33M1130 108l32 33-32 33M1090 92l-42 100" fill="none" stroke="url(#accent)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="66" y="63" width="36" height="4" rx="2" fill="#74efd0"/>
+    <text x="116" y="70" fill="#a6becd" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" letter-spacing="3">HELLO, WORLD.</text>
+    <text x="64" y="159" fill="#f1f7fb" font-family="Segoe UI,Arial,sans-serif" font-size="68" font-weight="700" letter-spacing="-2">Rajat Yadav</text>
+    <text x="68" y="205" fill="#bacbd8" font-family="Segoe UI,Arial,sans-serif" font-size="19">Web development <tspan fill="#74efd0">/</tspan> AI projects <tspan fill="#74efd0">/</tspan> Problem solving</text>
+    <text x="68" y="264" fill="#74efd0" font-family="Consolas,monospace" font-size="16">@rajat380</text>
+    <path d="M1011 261h202" stroke="#2c4e60" stroke-width="1"/>
+    <circle cx="1213" cy="261" r="4" fill="#74efd0"/>
+  </g>
+</svg>
